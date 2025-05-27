@@ -1,0 +1,184 @@
+#heading{
+    width:auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1px;
+    margin:20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+#heading a span{
+    margin-right: -70px ;
+}
+
+.footer {
+    width: auto; /* Span full width */
+    border: 2px solid #000;
+    padding: 1px; /* Adjust padding as needed */
+    margin: 20px 10px; /* Adjust margins as needed */
+    display: flex;
+    justify-content: space-between; /* Content spread evenly */
+    align-items: center;
+    height: auto; /* Allow footer to resize based on content */
+    position: flex;
+    bottom: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialMedia-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Icons at the bottom */
+}  
+.bottomHeadline {
+    text-align: center; /* Text centered within the content wrapper */
+}
+
+
+.mainHeadline{
+    text-align: center;
+    margin: -80px auto;
+}
+
+.logo{
+    margin-right: -20px;
+}
+
+.userLogo {
+    /* position: absolute; */
+    margin: 10px;
+    top: 0;
+    right: 0;
+}
+
+
+.icon-container {
+    display: flex; /* Arrange icons horizontally */
+    margin-left: 1275px ; /* Add some margin for spacing */
+    }
+    
+.icon-container a {
+     margin-right: 30px; /* Add some space between icons */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set text color */
+}
+    
+.icon-container a span {
+    display: block; /* Make text display below the icon */
+    text-align: right;
+     margin-left: -7px; /* Center text alignment */
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+}
+
+.email-container{
+    text-align: center;
+}
+
+
+.admin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.admin-container .box {
+    width: 200px;
+    height: 100px;
+    /* background-color: hsl(0, 0%, 100%); */
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.admin-container .box h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+.admin-container .box p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: first baseline;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .navbar h2 {
+            margin: 0;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        
+
+
+
+
+/* Apply some basic styling to the table */
+table {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+  }
+  
+  /* Style the table header */
+  th {
+    background-color: #ccc; /* Ash background color */
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style the table cells */
+  td {
+    border: 1px solid #dddddd;
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: center; /* Center-align text */
+    word-wrap: break-word; /* Allow content to wrap to new line */
+    max-width: 75px; /* Maximum width for each cell */
+  }
+  
+  /* Alternate row colors for better readability */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #ddd;
+  }
+  

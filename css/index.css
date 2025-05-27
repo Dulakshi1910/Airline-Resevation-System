@@ -1,0 +1,185 @@
+#heading{
+    width:auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1px;
+    margin:20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+#heading a span{
+    margin-right: -70px ;
+}
+
+.footer {
+    width: auto; /* Span full width */
+    border: 2px solid #000;
+    padding: 1px; /* Adjust padding as needed */
+    margin: 20px 10px; /* Adjust margins as needed */
+    display: flex;
+    justify-content: space-between; /* Content spread evenly */
+    align-items: center;
+    height: auto; /* Allow footer to resize based on content */
+    position: flex;
+    bottom: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialMedia-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Icons at the bottom */
+}  
+.bottomHeadline {
+    text-align: center; /* Text centered within the content wrapper */
+}
+
+
+.mainHeadline{
+    text-align: center;
+    margin: -80px auto;
+}
+
+.logo{
+    margin-right: -20px;
+}
+
+.userLogo {
+    /* position: absolute; */
+    margin: 10px;
+    top: 0;
+    right: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow:1 ;
+    gap: 20px;
+    }
+    
+.icon-container a {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set text color */
+}
+    
+.icon-container a span {
+
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+}
+
+.email-container{
+    text-align: center;
+}
+
+
+
+
+
+#image-slider {
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Enable absolute positioning for child elements */
+    width: 100%; /* Make the slider full width */
+    height: 400px; /* Set the height of the slider */
+}
+
+#image-slider img {
+    position: absolute; /* Make images stack on top of each other */
+    top: 0; /* Align images to the top */
+    left: 0; /* Align images to the left */
+    width: 100%; /* Make images fill the slider width */
+    height: 100%; /* Make images fill the slider height */
+    object-fit: cover; /* Crop images to fit while maintaining aspect ratio */
+    opacity: 0; /* Initially hide all images */
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity changes */
+}
+
+#image-slider img:first-child {
+    opacity: 1; /* Show the first image by default */
+}
+
+.button-container {
+    display: flex; /* Make the container a flexbox */
+    justify-content: center; /* Distribute buttons horizontally with space between */
+}
+
+.button {
+    background-color: #b2b5b2; /* Green color */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #91d8ee; /* Green with a darker shade on hover */
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to next line if needed */
+    justify-content: space-evenly; /* Distribute cards evenly */
+    margin: 10px; /* Add some margin for spacing */
+  }
+
+  .card {
+    background-color: #f2f2f2; /* Light gray background */
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    margin: 5px;
+    width: 300px; /* Set width for each card */
+    text-align: center; /* Center content within card */
+  }
+
+  .card img {
+    width: 70%; /* Stretch image to fill card width */
+    height: 70%; /* Set image height */
+  }
+
+  .card button {
+    background-color: #4CAF50; /* Green color for button */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .card button:hover {
+    background-color: #91d8ee; /* Green with a darker shade on hover */
+  }

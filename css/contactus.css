@@ -1,0 +1,218 @@
+#heading{
+    width:auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1px;
+    margin:20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+#heading a span{
+    margin-right: -70px ;
+	color:green;
+}
+
+.footer {
+    width: auto; /* Span full width */
+    border: 2px solid #000;
+    padding: 1px; /* Adjust padding as needed */
+    margin: 20px 10px; /* Adjust margins as needed */
+    display: flex;
+    justify-content: space-between; /* Content spread evenly */
+    align-items: center;
+    height: auto; /* Allow footer to resize based on content */
+    position: flex;
+    bottom: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialMedia-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Icons at the bottom */
+}  
+.bottomHeadline {
+    text-align: center; /* Text centered within the content wrapper */
+}
+
+
+.mainHeadline{
+    text-align: center;
+    margin: -80px auto;
+}
+
+.search{
+    text-align: center;
+    margin: -40px auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;align-items: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow:1 ;
+    gap: 20px;
+    }
+    
+  .icon-container a {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set text color */
+  }
+
+.logo{
+    margin-right: -20px;
+}
+
+.userLogo {
+    /* position: absolute; */
+    margin: 10px;
+    top: 0;
+    right: 0;
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+
+}
+.email-container{
+    text-align: center;
+}
+
+
+
+
+
+
+/* Style for contact info container */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* Style for individual contact item */
+.contact-item {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for icon */
+.contact-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff; /* Change color as needed */
+}
+
+/* Style for heading */
+.contact-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Change color as needed */
+}
+
+/* Style for contact details */
+.contact-item p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666; /* Change color as needed */
+}
+
+/* Style for secondary info */
+.contact-item h5 {
+    font-size: 14px;
+    color: #999; /* Change color as needed */
+}
+
+/* Style for feedback form container */
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for feedback form */
+.feedback-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Adjust as needed */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feedback-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Change color as needed */
+    text-align: center;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form .form-group {
+    margin-bottom: 20px;
+}
+
+.feedback-form label {
+    font-size: 16px;
+    color: #555; /* Change color as needed */
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.feedback-form textarea {
+    height: 150px;
+}
+
+.feedback-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Change color as needed */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #0056b3; /* Change color as needed */
+}
+
